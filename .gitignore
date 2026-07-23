@@ -1,0 +1,20 @@
+# 1. Ignorar todo por defecto en la raíz
+/*
+
+# 2. Permitir carpetas de notebooks y datos
+!/notebooks/
+!/notebooks/**
+
+!/notebooks2/
+!/notebooks2/**
+
+!/notebooks3/
+!/notebooks3/**
+
+
+# 3. Archivos del sistema y Git
+!.gitignore
+!README.md
+
+/notebooks/ow_topic_cls
+/notebook/tmp_trainer
